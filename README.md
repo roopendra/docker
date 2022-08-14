@@ -8,7 +8,7 @@ ENTRYPOINT: Default parameters that cannot be overridden when Docker Containers 
 
 To demonostrate this I have created two docker file ab_cmd.Dockerfile and ab_entrypoint.Dockerfile
 
-docker build -f ab_cmd.Dockerfile -t ab_cmd .
+docker build -f ab_cmd.Dockerfile -t ab_cmd .  
 docker build -f ab_entrypoint.Dockerfile -t ab_entrypoint .
 
 Launch Docker Containers 
